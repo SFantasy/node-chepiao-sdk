@@ -9,7 +9,6 @@
  */
 
 var api = require('./lib/api');
-var Form = require('./lib/form');
 
 var request = require('request');
 var objectAssign = require('object-assign');
