@@ -1,8 +1,14 @@
 {
-  "name": "chepiao-node-sdk",
-  "version": "0.0.1",
+  "name": "chepiao-sdk",
+  "version": "0.1.0",
   "description": "Node.js SDK for chepiao100.com",
-  "repository": "git@github.com:SFantasy/chepiao-node-sdk",
+  "repository": "git@github.com:SFantasy/node-chepiao-sdk",
+  "keywords": [
+    "chepiao",
+    "railway",
+    "crh",
+    "sdk"
+  ],
   "dependencies": {
     "form-data": "^0.2.0",
     "object-assign": "^2.0.0",
