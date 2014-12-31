@@ -16,3 +16,7 @@ var chepiao = new Chepiao(config);
 chepiao.schedule('g1', function (res) {
   console.log(res);
 });
+
+chepiao.leftTickets('2014-02-26', '上虞北', '南京南', function (res) {
+  console.log(res);
+});
