@@ -39,6 +39,20 @@ npm install chepiao-sdk --save
     });
     ```
 
+## API
+
+- Train schedule
+
+```js
+chepiao.schedule(number, callback);
+```
+
+- Query tickets
+
+```js
+chepiao.leftTickets(date, startStation, arriveStation, callback);
+```
+
 ## License
 
 The MIT License
