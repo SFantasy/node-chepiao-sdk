@@ -1,0 +1,11 @@
+{
+  "name": "chepiao-node-sdk",
+  "version": "0.0.1",
+  "description": "Node.js SDK for chepiao100.com",
+  "repository": "git@github.com:SFantasy/chepiao-node-sdk",
+  "dependencies": {
+    "form-data": "^0.2.0",
+    "object-assign": "^2.0.0",
+    "request": "^2.51.0"
+  }
+}
