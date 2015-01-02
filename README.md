@@ -11,7 +11,7 @@ node-chepiao-sdk
 
 [![NPM](https://nodei.co/npm/chepiao-sdk.png?downloads&downloadRank)](https://nodei.co/npm/chepiao-sdk/)
 
-Node.js SDK for [chepiao100.com](//www.chepiao100.com).
+Node.js SDK for [chepiao100.com](http://www.chepiao100.com).
 
 ## Install
 
