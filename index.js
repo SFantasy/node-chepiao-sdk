@@ -5,7 +5,7 @@
  * @description
  * @author Fantasy <fantasyshao@icloud.com>
  * @create 2014-12-31
- * @update 2014-12-31
+ * @update 2015-01-03
  */
 
 var api = require('./lib/api');
@@ -27,6 +27,8 @@ module.exports = Chepiao;
  */
 Chepiao.prototype.request = function(url, form, callback) {
   var _this = this;
+
+  console.log(objectAssign(_this.config, form));
 
   request.post({
     url: url,
@@ -77,6 +79,24 @@ Chepiao.prototype.leftTickets = function (date, startStation, arriveStation, cal
     'date': date,
     'startStation': startStation,
     'arriveStation': arriveStation
+  }, function (data) {
+    callback(data);
+  });
+};
+
+/**
+ * Query info about flight tickets
+ * @param date
+ * @param depart
+ * @param arrival
+ * @param callback
+ */
+Chepiao.prototype.flights = function (date, depart, arrival, callback) {
+
+  this.request(api.flights, {
+    'date': date,
+    'departureAirport': depart,
+    'arrivalAirport': arrival
   }, function (data) {
     callback(data);
   });

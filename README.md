@@ -47,10 +47,16 @@ npm install chepiao-sdk --save
 chepiao.schedule(number, callback);
 ```
 
-- Query tickets
+- Query train tickets
 
 ```js
 chepiao.leftTickets(date, startStation, arriveStation, callback);
+```
+
+- Query flight tickets
+
+```js
+chepiao.flights(date, depart, arrival, callback);
 ```
 
 ## License
