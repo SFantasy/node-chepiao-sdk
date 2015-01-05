@@ -3,6 +3,11 @@
   "version": "0.1.4",
   "description": "Node.js SDK for chepiao100.com",
   "repository": "git@github.com:SFantasy/node-chepiao-sdk",
+  "author": {
+      "name": "Fantasy Shao",
+      "email": "fantasyshao@icloud.com",
+      "url": "http://fantasy.codes"
+  },
   "keywords": [
     "chepiao",
     "railway",
