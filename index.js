@@ -28,8 +28,6 @@ module.exports = Chepiao;
 Chepiao.prototype.request = function(url, form, callback) {
   var _this = this;
 
-  console.log(objectAssign(_this.config, form));
-
   request.post({
     url: url,
     formData: objectAssign(_this.config, form),
